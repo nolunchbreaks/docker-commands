@@ -1,16 +1,16 @@
 # docker-commands
 
 # Basic Commands
--systemctl status docker
--docker run hello-world
+systemctl status docker
+docker run hello-world
 
--docker images
--docker ps
--docker ps -a
+docker images
+docker ps
+docker ps -a
 
 # Run a container
--docker run --name web01 -d -p 9080:80 nginx
--docker ps
+docker run --name web01 -d -p 9080:80 nginx
+- docker ps
 -docker inspect web01
 -curl http://172.17.0.2:80
 
